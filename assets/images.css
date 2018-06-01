@@ -1,0 +1,227 @@
+body {
+    background-color:lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#topsection {
+    background-color: #ffffff;
+    height: 80px;
+    border-bottom: 2px solid grey;    
+}
+ header, h1 {
+     float: left;
+     margin-left: 40px;
+     background-color: #4aaaa5;
+     border-color: #cccccc;
+     padding-right: 20px;
+     padding-left: 20px;
+     color: white;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+
+ li {
+    float: right; 
+    width: 60px;
+     display: inline;
+     text-align: center;
+     padding: 15px 18px;
+ }
+
+ section {
+     width: 960px;
+     float: left;
+     background-color: #ffffff;
+     margin-left: 40px;
+     margin-top: 20px;
+ }
+
+ #port {
+     color: #4aaaa5;
+     margin-top: 40px;
+     font-size: 30px;
+     display: block;
+     border-bottom: 2px solid grey;
+     margin: 20px;
+ }
+
+#photos {
+    border-top: 3px solid #dddddd;
+    margin: 20px;
+}
+
+.img {
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.desc {
+    max-width: 40%;
+    margin: 25px 30px 5px 20px;
+}
+
+h3 {
+    display: block;
+    font-weight: bold;
+}
+
+.over1 {
+    position: absolute;
+    top: 29%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.over2 {
+    position: absolute;
+    top: 29%;
+    right: 12%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.over3 {
+    position: absolute;
+    top: 35%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.over4 {
+    position: absolute;
+    top: 35%;
+    right: 12%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.over5 {
+    position: absolute;
+    top: 74%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.over6 {
+    position: absolute;
+    top: 74%;
+    right: 12%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.over7 {
+    position: absolute;
+    top: 79%;
+    margin-left: 20px;
+    width: 40%;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+@media screen and (max-width:960px) {
+    body {
+         background-color:darkblue; }
+    #pics {
+        float: left; 
+    }
+    .img {
+        float: left;
+        margin-right: 180px;
+    }
+    .desc {
+        float: left;
+        margin-right: 180px;
+    }
+    .over1 {
+        float: left;
+        margin-right: 180px;
+    }
+    .over2 {
+        float: left;
+        margin-right: 180px;
+    }
+    .over3 {
+        float: left;
+        margin-right: 180px;
+    }
+    .over4 {
+        float: left;
+        margin-right: 180px;
+    }
+    .over5 {
+        float: left;
+        margin-right: 180px;
+    }
+    .over6 {
+        float: left;
+        margin-right: 180px;
+    }
+    .over7 {
+        float: left;
+        margin-right: 180px;
+    }
+}
+
+@media screen and (max-width:768px) {
+     body {
+         background-color: blue;
+     }
+     #pics {
+         float: left;
+     }
+    .img {
+        float: left;
+        margin-right: 360px;
+    } 
+    .desc {
+        float: left;
+        margin-right: 180px;
+    }    
+}
+
+@media screen and (max-width:640px) {
+    body {
+        background-color: lightblue;
+    }
+    #pics {
+        float: left;
+    }
+    .img {
+       float: left;
+       margin-right: 540px;
+   } 
+   .desc {
+    float: left;
+    margin-right: 180px;
+    }    
+}
